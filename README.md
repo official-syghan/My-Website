@@ -1,6 +1,6 @@
 # Syghan — Writer Website
 
-![Syghan Website](public/images/syghan-hero-section.png)
+![Syghan Website](public/images/Book Cover.png)
 
 A personal website built with **Next.js**, **TypeScript**, and **Tailwind CSS** for **Syghan**, an upcoming writer from Mumbai, India, and to showcase his upcoming collection of stories, _Twisted Desires_.
 
