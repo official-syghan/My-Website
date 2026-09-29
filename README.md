@@ -1,12 +1,10 @@
-# Cabral Correia — Author Website
+# Syghan — Writer Website
 
-![Cabral Correia Website](public/images/cabral-correia-hero-section.png)
+![Syghan Website](public/images/syghan-hero-section.png)
 
-A personal website built with **Next.js**, **TypeScript**, and **Tailwind CSS** to showcase my literary work and my first published book, _Carne e Osso_.
+A personal website built with **Next.js**, **TypeScript**, and **Tailwind CSS** for **Syghan**, an upcoming writer from Mumbai, India, and to showcase his upcoming collection of stories, _Twisted Desires_.
 
-Although I work professionally as a Senior Front-end Engineer, writing has been a lifelong passion. After publishing my first book, I decided to build a website dedicated to my literary career.
-
-At the same time, I chose to make the project open source as a practical demonstration of how I structure modern React and Next.js applications, focusing on accessibility, maintainability, performance, testing, and clean architecture.
+The website presents Syghan's writing, author profile, selected stories, and contact information through a dark, literary-focused design.
 
 ---
 
@@ -14,20 +12,23 @@ At the same time, I chose to make the project open source as a practical demonst
 
 Production URL:
 
-**https://www.cabralcorreia.com.br**
+**https://www.syghan.com**
 
 ---
 
 ## About the Project
 
-_Carne e Osso_ is a collection of 26 short stories written over a period of 22 years.
+_Twisted Desires_ is an upcoming collection of stories inspired primarily by real-life incidents, experiences, and observations, with some fictional elements shaped through imagination.
+
+The stories explore themes such as desire, passion, temptation, vulnerability, guilt, intimacy, and complicated choices.
 
 The website was designed to:
 
-- Present the book and author
+- Present the author and his work
+- Introduce _Twisted Desires_
 - Publish selected stories
 - Provide contact information
-- Serve as a public portfolio project demonstrating modern front-end practices
+- Showcase the author's literary identity
 
 ---
 
@@ -36,42 +37,37 @@ The website was designed to:
 ### Public Website
 
 - Home page
-- Author section
-- Book page
+- About the author
+- Book / collection section
 - Selected stories
 - Contact form
-- Social links page
+- Social links
 - Custom 404 page
 
 ### SEO
 
-- Metadata API
-- Open Graph tags
+- Next.js Metadata API
+- Open Graph metadata
 - Twitter Cards
 - Semantic HTML
+- Custom favicon
 
 ### Accessibility
 
 - Keyboard navigation
 - Skip link
 - Focus-visible states
-- ARIA attributes
+- ARIA attributes where appropriate
 - Semantic landmarks
 - Accessible forms
 
 ### Performance
 
 - Next.js Image Optimization
+- Server Components
 - Static generation
 - Route-based code splitting
 - Optimized font loading
-
-### Testing
-
-- Unit tests
-- Component tests
-- Form validation tests
-- Accessibility-related tests
 
 ---
 
@@ -79,7 +75,7 @@ The website was designed to:
 
 ### Next.js
 
-Framework used to build the application.
+Framework used to build the website.
 
 Why:
 
@@ -87,76 +83,79 @@ Why:
 - Server Components
 - Static generation
 - Metadata API
-- Excellent developer experience
+- Optimized image handling
 
 ### TypeScript
 
-Used throughout the entire codebase.
+Used throughout the application.
 
 Why:
 
 - Type safety
 - Better maintainability
-- Improved refactoring experience
+- Easier refactoring
+- Improved developer experience
 
 ### Tailwind CSS
 
-Utility-first styling approach.
+Used for styling the application.
 
 Why:
 
-- Fast iteration
-- Consistent design system
-- Minimal CSS footprint
+- Rapid development
+- Consistent styling
+- Responsive design
+- Utility-first workflow
 
 ### React Hook Form
 
-Form state management.
+Used for contact form state management.
 
 Why:
 
-- Excellent performance
+- Efficient form handling
 - Minimal re-renders
-- Simple integration with validation libraries
+- Simple validation integration
 
 ### Zod
 
-Schema validation.
+Used for form validation.
 
 Why:
 
-- Type-safe validation
-- Reusable business rules
-- Seamless React Hook Form integration
+- Type-safe schemas
+- Reusable validation rules
+- Integration with React Hook Form
 
 ### Jest
 
-Testing framework.
+Used for testing.
 
 Why:
 
-- Mature ecosystem
-- Excellent TypeScript support
-- Reliable unit and component testing
+- Unit testing
+- Component testing
+- Reliable test environment
 
 ### React Testing Library
 
-Testing utilities focused on user behavior.
+Used for testing components from the user's perspective.
 
 Why:
 
-- Encourages testing from the user's perspective
-- Reduces implementation-coupled tests
+- User-focused testing
+- Accessible queries
+- Less implementation-dependent testing
 
 ### Radix UI
 
-Accessible primitives.
+Used where accessible UI primitives are required.
 
 Why:
 
-- Accessibility-first approach
-- Headless components
-- Full styling control
+- Accessibility-focused components
+- Headless primitives
+- Flexible styling
 
 ---
 
@@ -174,91 +173,3 @@ src/
 ├── lib/
 ├── types/
 └── __tests__/
-```
-
-### Architecture Principles
-
-- Reusable UI components
-- Separation of concerns
-- Type-safe data structures
-- Accessibility-first mindset
-- Testable code
-
----
-
-## Running Locally
-
-### Install dependencies
-
-```bash
-npm install
-```
-
-### Start development server
-
-```bash
-npm run dev
-```
-
-Application will be available at:
-
-```text
-http://localhost:3000
-```
-
----
-
-## Running Tests
-
-Run all tests:
-
-```bash
-npm test
-```
-
-Run tests in watch mode:
-
-```bash
-npm test -- --watch
-```
-
-Generate coverage report:
-
-```bash
-npm test -- --coverage
-```
-
----
-
-## Accessibility Highlights
-
-This project includes:
-
-- Semantic HTML
-- Accessible navigation
-- Skip-to-content link
-- Form validation feedback
-- Keyboard navigation support
-- Focus management
-- ARIA attributes where appropriate
-
-Accessibility was treated as a core feature rather than an afterthought.
-
----
-
-## Author
-
-**Thiago "Cabral" Correia**
-
-Senior Front-end Engineer
-Writer and Author of _Carne e Osso_
-
-- Website: https://www.cabralcorreia.com.br
-- Instagram: https://instagram.com/cabralcorreia
-- Threads: https://www.threads.com/@cabralcorreia
-
----
-
-## License
-
-This project is licensed under the MIT License.
